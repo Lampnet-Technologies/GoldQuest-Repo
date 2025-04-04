@@ -1,0 +1,22 @@
+import AboutUsHero from '@/components/AboutUs/AboutUsHero'
+import MissionAnsVision from '@/components/AboutUs/MissionAnsVision'
+import TheTeam from '@/components/AboutUs/TheTeam'
+import WhoWeAre from '@/components/AboutUs/WhoWeAre'
+import OurMissionVision from '@/components/AboutUs/OurMissionVision'
+import WorkWithUs from '@/components/AboutUs/WorkWithUs'
+import React from 'react'
+
+const page = () => {
+  return (
+    <main>
+      <AboutUsHero/>
+      <WhoWeAre/>
+      <OurMissionVision/>
+      <MissionAnsVision/>
+      <WorkWithUs/>
+      <TheTeam/>
+    </main>
+  )
+}
+
+export default page
