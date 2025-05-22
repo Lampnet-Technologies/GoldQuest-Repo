@@ -7,14 +7,14 @@ const data = [
     image: "/pexels-photo-3894378.jpeg",
     title: "trainings",
     subText:
-      "With our trainings, improve the leadership, marketing, and customer experience skills of your team.",
+      "We offer trainings in Digital marketing, E-commerce, Leadership, Team management, Financial illiteracy and Entrepreneurship.",
   },
   {
     id: 2,
     image: "/pexels-photo-3894383.jpeg",
     title: "coaching",
     subText:
-      "We connect you to a seasoned business mentor or coach who has useful resources that are relevant to you.",
+      "We provide personalized leadership development and mentorship for aspiring entrepreneurs. ",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const data = [
     image: "/two-business-partner.png",
     title: "consultation",
     subText:
-      "Get 1:1 expert advice and strategies for implementing solutions for your business challenges.",
+      "We provide business growth strategies, market entry strategies for startups, team management, and financial planning assistance",
   },
 ];
 

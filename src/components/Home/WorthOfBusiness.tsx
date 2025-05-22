@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 const WorthOfBusiness = () => {
   const rectangleStyle: React.CSSProperties = {
     position: "relative",
-    width: "100%", 
+    width: "100%",
     height: "70px",
     backgroundColor: "#CF982B",
     clipPath: `polygon(
@@ -25,10 +25,11 @@ const WorthOfBusiness = () => {
         <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
           <div className="w-full max-w-[400px]">
             {/* Ensure Rectangle Matches Image Width */}
-            <div style={rectangleStyle} className="w-full"></div>
+            {/* style={rectangleStyle} */}
+            <div className="w-full"></div>
             <div>
-              <Image
-                src="/Rectangle-9311.png"
+              <img
+                src="https://res.cloudinary.com/dn4hkronr/image/upload/v1747933254/Group_6_olsiz2.png"
                 alt="worth of business"
                 width={400}
                 height={400}
@@ -46,14 +47,19 @@ const WorthOfBusiness = () => {
             </Button>
           </div>
           <h2 className="font-bold text-3xl capitalize">
-            Consulting and Management Services
+            Providing Clarity For Business Growth
           </h2>
           <p className="text-base text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
           </p>
           <div>
             <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
-              Book Appointment
+              Read More
             </Button>
           </div>
         </div>
