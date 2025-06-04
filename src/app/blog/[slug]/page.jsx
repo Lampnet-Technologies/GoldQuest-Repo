@@ -24,7 +24,7 @@ const Page = async ({ params }) => {
   return (
     <main className="w-full min-h-screen max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
       <div className="mt-6">
-        <h1 className="mt-2 block text-3xl text-center leading-8 font-bold tracking-tight sm:text-4xl">
+        <h1 className="mt-2 block text-3xl leading-8 font-bold tracking-tight sm:text-4xl">
           {data.title}
         </h1>
 
@@ -47,7 +47,7 @@ const Page = async ({ params }) => {
           </p>
         )}
 
-        <div className="mt-16 prose prose-lg dark:prose-invert max-w-none">
+        <div className="mt-16 mb-10 prose prose-lg dark:prose-invert max-w-none">
           <PortableText value={data.body} />
         </div>
       </div>
