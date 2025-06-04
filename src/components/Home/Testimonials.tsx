@@ -11,26 +11,18 @@ const testimonials = [
   {
     id: 1,
     image: "/Rectangle-9309.png",
-    title: "Consulting and Management Services",
-    text: "Before working with Goal Quest Academy, our operations were scattered and inefficient. The comprehensive business services provided by their team streamlined our processes and significantly boosted our productivity. The personalized approach and attention to detail have made a substantial difference in our company's growth trajectory. Highly recommended!",
-    name: "Sarah N",
-    position: "CEO of Techinnovate",
+    title:
+      "I had the pleasure of being mentored by Goal Quest Consult, and it was a transformative experience. The guidance and wisdom shared by my mentor helped me navigate challenges and seize opportunities with newfound clarity. Their commitment to my personal and professional growth was evident in every interaction. I am grateful for the invaluable support and mentorship provided.",
+    name: "Emily R.",
+    position: "Marketing Director at BrightFuture Inc",
   },
   {
     id: 2,
     image: "/Rectangle-9309.png",
-    title: "Consulting and Management Services",
-    text: "Before working with Goal Quest Academy, our operations were scattered and inefficient. The comprehensive business services provided by their team streamlined our processes and significantly boosted our productivity. The personalized approach and attention to detail have made a substantial difference in our company's growth trajectory. Highly recommended!",
-    name: "Sarah N",
-    position: "CEO of Techinnovate",
-  },
-  {
-    id: 3,
-    image: "/Rectangle-9309.png",
-    title: "Consulting and Management Services",
-    text: "Before working with Goal Quest Academy, our operations were scattered and inefficient. The comprehensive business services provided by their team streamlined our processes and significantly boosted our productivity. The personalized approach and attention to detail have made a substantial difference in our company's growth trajectory. Highly recommended!",
-    name: "Sarah N",
-    position: "CEO of Techinnovate",
+    title:
+      "The entrepreneurial training program at Goal Quest Consult was a game-changer for me. The practical insights and active workshops gave me the confidence and skills I needed to launch my startup successfully. The trainers were not only knowledgeable but also incredibly supportive throughout the journey. I couldn't have asked for a better experience!",
+    name: "David L.",
+    position: "Founder, GreenPath Solutions",
   },
 ];
 
@@ -102,7 +94,7 @@ const Testimonials = () => {
                     <h2 className="font-bold text-3xl capitalize">
                       {testimonial.title}
                     </h2>
-                    <p className="text-base text-justify">{testimonial.text}</p>
+                    {/* <p className="text-base text-justify">{testimonial.text}</p> */}
                     <div className="flex gap-4 justify-center md:justify-start">
                       <div className="space-y-3 md:space-y-6">
                         <h2 className="font-bold text-3xl text-[#222]">

@@ -7,7 +7,6 @@ import Video from "@/components/Home/Video";
 import LatestArticle from "@/components/Home/LatestArticle";
 
 
-
 export default function Home() {
   return (
     <div className="">
