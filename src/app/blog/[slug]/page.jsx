@@ -38,7 +38,8 @@ const Page = async ({ params }) => {
 
         {data.publishedAt && (
           <p className="mt-4 text-center text-gray-500 text-sm">
-            Published on {new Date(data.publishedAt).toLocaleDateString("en-GB", {
+            Published on{" "}
+            {new Date(data.publishedAt).toLocaleDateString("en-GB", {
               day: "2-digit",
               month: "short",
               year: "numeric",
