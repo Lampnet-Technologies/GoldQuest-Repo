@@ -38,7 +38,7 @@ const TheTeam: React.FC = () => {
       {/* Section Title */}
       <div className="mb-8 text-center">
         <h2 className="text-3xl font-bold font-playfair">Our Team</h2>
-        <P> Our team is made up of experienced professionals from diverse disciplines including business strategy, digital marketing, leadership development, financial literacy, and entrepreneurship.
+        <P className="flex flex-col text-base font-normal space-y-3 "> Our team is made up of experienced professionals from diverse disciplines including business strategy, digital marketing, leadership development, financial literacy, and entrepreneurship.
 
 Our consultants have a proven track record of delivering successful outcomes in both the public and private sectors. </p>
       </div>
