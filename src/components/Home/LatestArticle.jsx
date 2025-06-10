@@ -41,7 +41,7 @@ const LatestArticle = () => {
           Our Latest Articles
           </h2>
           <p className="w-full md:w-8/12 mx-auto text-base font-normal">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+         News,learning resource and updates
           </p>
 
           {/* Grid Container */}
