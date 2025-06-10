@@ -14,12 +14,9 @@ const WhoWeAre = () => {
             </Button>
           </div>
           <p className="flex flex-col text-base font-normal space-y-3 ">
-            Goal Quest Academy is a premier business training and management
-            consulting firm committed to empowering the next generation of
-            leaders and entrepreneurs. Established in 2021 and headquartered in
-            Enugu, Nigeria, we are dedicated to fostering innovation,
-            leadership, and entrepreneurship through world-class training,
-            coaching, and consulting services.
+           At GoalQuest Consult, we empower entrepreneurs, business leaders, and ambitious professionals with world-class training, coaching, and consulting services. Since 2021, we’ve been transforming visions into reality—helping individuals and businesses thrive in Nigeria’s competitive landscape.
+📍 Headquartered in Enugu, Nigeria | 🌍 Driving Economic Growth Across Africa.
+
           </p>
         </div>
 
