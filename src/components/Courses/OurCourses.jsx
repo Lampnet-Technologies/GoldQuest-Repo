@@ -9,11 +9,7 @@ const courses = [
     title: "AI Smart job Bootcamp",
     rating: 4.8,
     reviews: 200,
-    
- <Link href="https://aibootcamp.lcglobal.com.ng">
-  <a>
-  </a>
-</Link>;
+  ctaLink="https://aibootcamp.lcglobal.com.ng"  
    
   },
   {
