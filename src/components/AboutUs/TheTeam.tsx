@@ -18,18 +18,7 @@ const teamMembers = [
     name: "Tabitha Ngozi",
     role: "Lead Consultant",
   },
-  {/* {
-    id: 2,
-    image: "/image3.png",
-    name: "Omotunde Oyebola Funmilayo",
-    role: "Head of Legal",
-  },
-  {
-    id: 3,
-    image: "/image4.jpeg",
-    name: "Chidiman Obilonu",
-    role: "Creative Strategist",
-  }, */}
+  {/*  removed the other team members*/}
 ];
 
 const TheTeam: React.FC = () => {
