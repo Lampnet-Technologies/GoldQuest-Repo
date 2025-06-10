@@ -5,6 +5,15 @@ import Image from "next/image";
 import { client, urlFor } from "../../lib/sanity";
 import { PortableText } from "@portabletext/react";
 
+// Add this function t
+export async function generateStaticParams() {
+  const query = `*[_type == "blog"]{ "slug": slug.current }`;
+  const posts = await client.fetch(query);
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
 const Page = async () => {
   const query = `*[_type == "blog"]{
     title,
