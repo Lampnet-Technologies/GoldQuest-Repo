@@ -41,7 +41,7 @@ const GetHelp = () => {
           What We Offer
           </h2>
           <p className="w-full md:w-8/12 mx-auto text-base font-normal">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+          Scale smarter with GoalQuest Consult’s expert consulting—where data-driven strategies meet real-world execution. 
           </p>
 
           {/* Grid Container */}
