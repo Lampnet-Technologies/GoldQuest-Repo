@@ -17,7 +17,7 @@ const GetInTouch = () => {
             </span>
           </p>
           <p className="flex flex-col gap-4 font-medium text-lg text-[#00193E]">
-            <span>Email: goalquestacademy@gmail.com</span>
+            <span>Email: goalquestacademy@gmail.com || info@goalquest.com.ng </span>
             <span>Phone: +234 123 456 7890</span>
           </p>
         </div>
