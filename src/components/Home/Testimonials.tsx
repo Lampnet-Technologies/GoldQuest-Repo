@@ -10,7 +10,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 const testimonials = [
   {
     id: 1,
-    image: "/Rectangle-9309.png",
+    image: "/GoalQ",
     title:
       "I had the pleasure of being mentored by Goal Quest Consult, and it was a transformative experience. The guidance and wisdom shared by my mentor helped me navigate challenges and seize opportunities with newfound clarity. Their commitment to my personal and professional growth was evident in every interaction. I am grateful for the invaluable support and mentorship provided.",
     name: "Emily R.",
@@ -18,10 +18,10 @@ const testimonials = [
   },
   {
     id: 2,
-    image: "/Rectangle-9309.png",
+    image: "/vech6",
     title:
       "The entrepreneurial training program at Goal Quest Consult was a game-changer for me. The practical insights and active workshops gave me the confidence and skills I needed to launch my startup successfully. The trainers were not only knowledgeable but also incredibly supportive throughout the journey. I couldn't have asked for a better experience!",
-    name: "David L.",
+    name: " David L.",
     position: "Founder, GreenPath Solutions",
   },
 ];
