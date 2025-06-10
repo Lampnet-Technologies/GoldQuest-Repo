@@ -14,11 +14,11 @@ import Image from "next/image";
 const teamMembers = [
   {
     id: 1,
-    image: "/image1.png",
-    name: "Ugochi Obilonu",
+    image: "/image0.png",
+    name: "Tabitha Ngozi",
     role: "Lead Consultant",
   },
-  {
+  {/* {
     id: 2,
     image: "/image3.png",
     name: "Omotunde Oyebola Funmilayo",
@@ -29,7 +29,7 @@ const teamMembers = [
     image: "/image4.jpeg",
     name: "Chidiman Obilonu",
     role: "Creative Strategist",
-  },
+  }, */}
 ];
 
 const TheTeam: React.FC = () => {
@@ -37,7 +37,10 @@ const TheTeam: React.FC = () => {
     <section className="container mx-auto py-16">
       {/* Section Title */}
       <div className="mb-8 text-center">
-        <h2 className="text-3xl font-bold font-playfair">Meet the Team</h2>
+        <h2 className="text-3xl font-bold font-playfair">Our Team</h2>
+        <P> Our team is made up of experienced professionals from diverse disciplines including business strategy, digital marketing, leadership development, financial literacy, and entrepreneurship.
+
+Our consultants have a proven track record of delivering successful outcomes in both the public and private sectors. </p>
       </div>
 
       {/* Slider (Carousel) */}
