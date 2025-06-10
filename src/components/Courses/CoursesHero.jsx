@@ -6,7 +6,7 @@ const CoursesHero = () => {
     <section>
       <HeroSection
         title="We Are A Growth & Transformation Consulting Firm"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        subtitle="We partner with startups, SMEs, and corporate leaders to transform challenges into opportunities:"
         ctaText="Book Appointment"
         ctaLink="/contact"
         backgroundImage="/Rectangle-423.png"
