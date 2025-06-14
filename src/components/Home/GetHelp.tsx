@@ -1,31 +1,33 @@
-import Image from "next/image";
 import React from "react";
 
 const data = [
   {
     id: 1,
-    image: "/pexels-photo-3894378.jpeg",
+    image:
+      "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895758/training_eulzjf.png",
     title: "trainings",
     subText:
-      "We offer trainings in Digital marketing, E-commerce, Leadership, Team management, Financial illiteracy and Entrepreneurship.",
+      "We offer trainings in Digital marketing, E-commerce, Leadership, Team management, Financial illiteracy and Entrepreneurship. ",
   },
   {
     id: 2,
-    image: "/pexels-photo-3894383.jpeg",
+    image:
+      "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895757/coaching_ddwigm.png",
     title: "coaching",
     subText:
       "We provide personalized leadership development and mentorship for aspiring entrepreneurs. ",
   },
-  {
-    id: 3,
-    image: "/courses.png",
-    title: "courses",
-    subText:
-      "We have courses that suits your needs whether you are a new or aspiring entrepreneur or an established one.",
-  },
+  // {
+  //   id: 3,
+  //   image: "/courses.png",
+  //   title: "courses",
+  //   subText:
+  //     "We have courses that suits your needs whether you are a new or aspiring entrepreneur or an established one.",
+  // },
   {
     id: 4,
-    image: "/two-business-partner.png",
+    image:
+      "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895757/black_people_banner_image_for_digital_marketing_training_website_dhs28g.png",
     title: "consultation",
     subText:
       "We provide business growth strategies, market entry strategies for startups, team management, and financial planning assistance",
@@ -37,15 +39,14 @@ const GetHelp = () => {
     <section className="container h-full py-16  mx-auto">
       <div className="w-10/12 mx-auto ">
         <div className="text-center space-y-5">
-          <h2 className="font-bold text-3xl">
-          What We Offer
-          </h2>
+          <h2 className="font-bold text-3xl">What We Offer</h2>
           <p className="w-full md:w-8/12 mx-auto text-base font-normal">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+            Scale smarter with GoalQuest Consult’s expert consulting where
+            data-driven strategies meet real world execution.
           </p>
 
           {/* Grid Container */}
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {data.map((item) => (
               <div
                 key={item.id}
@@ -53,8 +54,8 @@ const GetHelp = () => {
               transition-transform duration-300 ease-in-out hover:scale-105"
               >
                 {/* Image */}
-                <div className="w-full h-full md:w-64 md:h-64 overflow-hidden rounded-lg">
-                  <Image
+                <div className="w-full h-full md:h-64 overflow-hidden rounded-lg">
+                  <img
                     src={item.image}
                     alt={item.title}
                     width={256}

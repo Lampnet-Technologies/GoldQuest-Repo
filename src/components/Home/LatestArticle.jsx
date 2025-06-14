@@ -1,3 +1,4 @@
+import { time } from "console";
 import Image from "next/image";
 import React from "react";
 
@@ -5,30 +6,25 @@ const data = [
   {
     id: 1,
     image: "/pexels-photo-3894378.jpeg",
-    title: "trainings",
-    subText:
-      "We offer trainings in Digital marketing, E-commerce, Leadership, Team management, Financial illiteracy and Entrepreneurship.",
+    date: "15th November, 2024",
+    time: "5 min read",
+    subText: "Strategy And Growth Solution For Businesses",
   },
   {
     id: 2,
     image: "/pexels-photo-3894383.jpeg",
-    title: "coaching",
+    date: "15th November, 2024",
+    time: "5 min read",
     subText:
       "We provide personalized leadership development and mentorship for aspiring entrepreneurs. ",
   },
   {
     id: 3,
     image: "/courses.png",
-    title: "courses",
+    date: "15th November, 2024",
+    time: "5 min read",
     subText:
       "We have courses that suits your needs whether you are a new or aspiring entrepreneur or an established one.",
-  },
-  {
-    id: 4,
-    image: "/two-business-partner.png",
-    title: "consultation",
-    subText:
-      "We provide business growth strategies, market entry strategies for startups, team management, and financial planning assistance",
   },
 ];
 
@@ -36,24 +32,22 @@ const LatestArticle = () => {
   return (
     <section className="container h-full py-16  mx-auto">
       <div className="w-10/12 mx-auto ">
-        <div className="text-center space-y-5">
-          <h2 className="font-bold text-3xl">
-          Our Latest Articles
-          </h2>
+        <div className="text-center mb-3">
+          <h2 className="font-bold text-3xl">Our Latest Articles</h2>
           <p className="w-full md:w-8/12 mx-auto text-base font-normal">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+            News,learning resource and updates
           </p>
 
           {/* Grid Container */}
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 ">
             {data.map((item) => (
               <div
                 key={item.id}
-                className="group flex flex-col items-center text-center p-6 rounded-lg shadow-lg bg-white 
+                className="group mt-7 p-6 rounded-lg shadow-lg bg-white 
               transition-transform duration-300 ease-in-out hover:scale-105"
               >
                 {/* Image */}
-                <div className="w-full h-full md:w-64 md:h-64 overflow-hidden rounded-lg">
+                <div className="w-full h-full md:h-64 overflow-hidden rounded-lg">
                   <Image
                     src={item.image}
                     alt={item.title}
@@ -64,12 +58,13 @@ const LatestArticle = () => {
                 </div>
 
                 {/* Title & Text */}
-                <h3 className="font-bold text-lg font-radley uppercase mt-4">
-                  {item.title}
+                <h3 className=" font-radley mt-4">
+                  {item.date}
                 </h3>
-                <p className="text-sm text-center font-radley mt-2">
+                <p className="text-sm font-radley mt-2">
                   {item.subText}
                 </p>
+                <p className="text-sm text-gray-500">{item.time}</p>
               </div>
             ))}
           </div>

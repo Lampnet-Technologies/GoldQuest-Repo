@@ -50,16 +50,14 @@ const WorthOfBusiness = () => {
             Providing Clarity For Business Growth
           </h2>
           <p className="text-base text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            Every growing business hits crossroads where uncertainty slows momentum. At GoalQuest Consult, we cut through the complexity with razor-sharp clarity, transforming your challenges into actionable growth strategies. 
+          </p>
+          <p className="text-base text-justify">
+            Our data-driven approach illuminates your path forward, turning 'what ifs' into measurable results. Whether you're scaling operations, entering new markets, or optimizing teams, we provide the strategic lens that converts vision into scalable success.
           </p>
           <div>
             <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
-              Read More
+              Learn More
             </Button>
           </div>
         </div>

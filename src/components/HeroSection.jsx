@@ -21,18 +21,12 @@ const HeroSection = ({
         height: "100vh",
       }}
     >
-      {/* ✅ Custom Content Goes Here */}
+      
       <div className="flex flex-col items-center justify-center h-screen gap-6 md:gap-3 text-center px-4">
         {children && <div className="mt-4">{children}</div>}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 mt-[40%] md:mt-[15%] md:w-[60%] mx-auto">
           <h2 className="font-bold text-2xl md:text-4xl text-white capitalize">{title}</h2>
         </div>
-
-        {subtitle && (
-          <p className="text-base text-white capitalize w-full md:w-7/12 mx-auto">
-            {subtitle}
-          </p>
-        )}
 
         {/* CTA Button */}
         {ctaText && (
