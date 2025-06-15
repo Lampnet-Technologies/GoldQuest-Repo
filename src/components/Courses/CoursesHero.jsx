@@ -6,13 +6,17 @@ const CoursesHero = () => {
     <section>
       <HeroSection
         title="We Are A Growth & Transformation Consulting Firm"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        subtitle=""
         ctaText="Book Appointment"
         ctaLink="/contact"
         backgroundImage="/Rectangle-423.png"
       >
-        {/* Optional Children Content */}
-        <p className="text-white text-sm">Transforming businesses with expert guidance.</p>
+        
+        <p className="text-white text-sm">
+          For ambitious professionals and business owners who refuse to settle
+          for average, our training programs provide the knowledge, tools, and
+          confidence to outperform the competition. Your next level starts here.
+        </p>
       </HeroSection>
     </section>
   );

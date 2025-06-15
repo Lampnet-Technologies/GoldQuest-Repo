@@ -1,0 +1,60 @@
+const CourseData = [
+  {
+    id: "1",
+    title: "AI Smart Job Hunt Bootcamp",
+    star: 4.5,
+    rate: '(128)',
+    link: "/courses",
+    image: "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895758/training_eulzjf.png",
+  },
+  {
+    id: "2",
+    title: "E-Commerce",
+    star: 4.5,
+    rate: '(128)',
+    link: "/courses",
+    image: "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895757/coaching_ddwigm.png",
+  },
+  {
+    id: "3",
+    title: "Leadership",
+    star: 4.5,
+    rate: '(128)',
+    link: "/courses",
+    image: "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895757/black_people_banner_image_for_digital_marketing_training_website_dhs28g.png",
+  },
+  {
+    id: "4",
+    title: "Digital Marketing",
+    star: 4.5,
+    rate: '(128)',
+    link: "/courses",
+    image: "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895757/black_people_banner_image_for_digital_marketing_training_website_dhs28g.png",
+  },
+  {
+    id: "5",
+    title: "Financial Literacy",
+    star: 4.5,
+    rate: '(128)',
+    link: "/courses",
+    image: "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895757/black_people_banner_image_for_digital_marketing_training_website_dhs28g.png",
+  },
+  {
+    id: "6",
+    title: "Entrepreneurship",
+    star: 4.5,
+    rate: '(128)',
+    link: "/courses",
+    image: "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895757/black_people_banner_image_for_digital_marketing_training_website_dhs28g.png",
+  },
+  {
+    id: "7",
+    title: "Team Management",
+    star: 4.5,
+    rate: '(128)',
+    link: "/courses",
+    image: "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895757/black_people_banner_image_for_digital_marketing_training_website_dhs28g.png",
+  },
+ 
+];
+export default CourseData;
