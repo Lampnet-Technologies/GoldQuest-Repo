@@ -2,6 +2,15 @@ import React from "react";
 import { client, urlFor } from "../../../lib/sanity";
 import { PortableText } from "@portabletext/react";
 
+// Add this function to src/app/blog/[slug]/page.jsx
+export async function generateStaticParams() {
+  const query = `*[_type == "blog"]{ "slug": slug.current }`;
+  const posts = await client.fetch(query);
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
 async function getData(slug) {
   const query = `*[_type == "blog" && slug.current == $slug][0] {
     title,
