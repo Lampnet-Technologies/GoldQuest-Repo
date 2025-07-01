@@ -53,9 +53,11 @@ const Header = () => {
         {/* Desktop Button */}
         <div className="hidden md:flex items-center gap-3 justify-center">
           <div>
-            <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
+       <Link href="https://calendly.com/d/cqr3-tww-3gn/30-minute-meeting" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
               Book Appointment
-            </Button>
+              </Button>
+            </Link>
           </div>
           <div className="">
             <ModeToggle />
@@ -97,12 +99,14 @@ const Header = () => {
 
           {/* Mobile Button */}
           <div className="mt-8 ">
-            <Button
+            <Link href="https://calendly.com/d/cqr3-tww-3gn/30-minute-meeting" target="_blank" rel="noopener noreferrer">
+              <Button
               className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]"
               onClick={() => setMenuOpen(false)}
-            >
+              >
               Book Appointment
-            </Button>
+              </Button>
+            </Link>
           </div>
           <div className="mt-8">
             <ModeToggle />
