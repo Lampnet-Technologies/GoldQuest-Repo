@@ -5,6 +5,7 @@ import WorthOfBusiness from "@/components/Home/WorthOfBusiness";
 import WhatWeOffer from "@/components/Home/WhatWeOffer";
 import Video from "@/components/Home/Video";
 import LatestArticle from "@/components/Home/LatestArticle";
+import RuralCommunityInitiative from "@/components/Home/RuralCommunityInitiative";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <GetHelp/>
       <WhatWeOffer/>
       <Video/>
+      <RuralCommunityInitiative/>
       <LatestArticle/>
       <Testimonials/>
     </div>

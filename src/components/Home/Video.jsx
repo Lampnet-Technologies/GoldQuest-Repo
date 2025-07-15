@@ -7,7 +7,11 @@ export default function VideoPlayer() {
   const videoId = 'Ci2YEz6roRU';
 
   return (
-    <div
+    <div className="py-4 px-4 mx-4 text-center">
+      <h2 className="text-3xl font-bold text-center mb-4">
+          Goalquest Collab X CSUF Startup Program
+        </h2>
+        <div
       className="relative w-[80%] max-w-7xl mx-auto aspect-video rounded-xl overflow-hidden shadow-lg cursor-pointer"
       onClick={() => setIsPlaying(true)}
     >
@@ -36,6 +40,7 @@ export default function VideoPlayer() {
           allowFullScreen
         ></iframe>
       )}
+    </div>
     </div>
   );
 }
