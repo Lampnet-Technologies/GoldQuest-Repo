@@ -8,6 +8,20 @@ import CourseContent from "@/components/Courses/CourseContent";
 import Reviews from "@/components/Courses/Reviews";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
+import React from "react";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import CourseData from "@/components/Courses/CourseData";
+// ...other imports...
+
+export async function generateStaticParams() {
+  // Replace with your actual slug fetching logic
+  return CourseData.map(course => ({ slug: course.slug }));
+}
+
+export default function CourseDetailPage({ params }) {
+  // ...existing code...
+}
 export default function CourseDetailPage({ params }) {
   const course = CourseData.find((c) => c.slug === params.slug);
 

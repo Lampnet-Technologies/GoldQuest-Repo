@@ -3,6 +3,13 @@ import HeroSection from "../../components/HeroSection";
 import BlogList from "../../components/BlogList"; 
 import { client } from "../../lib/sanity";
 
+
+export async function generateStaticParams() {
+  // Replace with your actual slug fetching logic
+  return BlogData.map(blog => ({ slug: blog.slug }));
+}
+
+// ...existing page component...
 const Page = async () => {
   const query = `*[_type == "blog"]{
     title,

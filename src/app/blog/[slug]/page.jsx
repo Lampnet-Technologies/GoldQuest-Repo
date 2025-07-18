@@ -1,6 +1,15 @@
 import React from "react";
 import { client, urlFor } from "../../../lib/sanity";
 import { PortableText } from "@portabletext/react";
+import BlogData from "@/components/Blog/BlogData";
+// ...existing imports...
+
+export async function generateStaticParams() {
+  // Replace with your actual slug fetching logic
+  return BlogData.map(blog => ({ slug: blog.slug }));
+}
+
+// ...existing page component...
 
 async function getData(slug) {
   const query = `*[_type == "blog" && slug.current == $slug][0] {
