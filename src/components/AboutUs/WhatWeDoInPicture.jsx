@@ -25,7 +25,7 @@ export default function WhatWeDoInPicture() {
         <div className="">
           <img
             src="https://res.cloudinary.com/dn4hkronr/image/upload/v1750013112/whatwedo_etcwuo.png"
-            alt="image"
+            alt="what we do"
             width="400"
             height="400"
           />
